@@ -1,26 +1,62 @@
 <!DOCTYPE html>
 <html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="estilos.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="style.css" />
     <title>Recetas</title>
-</head>
+  </head>
 <body>
 
         <header>
-            <div class="logo">Recetras 👨‍🍳 </div>
-            <nav class="barra">
-                <ul>
-                    <li><a href="#">Inicio</a></li>
-                    <li><a href="#">Pastas</a></li>
-                    <li><a href="#">Carnes</a></li>
-                    <li><a href="#">Postres</a></li>
-                    <li><a href="#">Panaderia</a></li>
+            <!-- navbar inicio -->
+      <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Recetras 👨‍🍳</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#collapsibleNavbar"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="collapsibleNavbar">
+            <ul class="navbar-nav">
+              <li class="nav-item"></li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  >Menu</a
+                >
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Pasta</a></li>
+                  <li><a class="dropdown-item" href="#">Panaderia</a></li>
+                  <li><a class="dropdown-item" href="#">Carnes</a></li>
+                  <li><a class="dropdown-item" href="#">Postres</a></li>
                 </ul>
-            </nav>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <!-- navbar fin -->
         </header>
         <main>
             <div class="call">
@@ -68,6 +104,7 @@
             <a href=""><i class="fa-brands fa-facebook"></i></a>
             <a href=""><i class="fa-brands fa-x-twitter"></i></a>
             <a href=""><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://github.com/DanielNoblero/pre-entrega-segunda.git"><i class="fa-brands fa-github"></i></a>
         </div>
     </footer>
     <a href="#" class="subir">

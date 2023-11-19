@@ -1,0 +1,131 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+main {
+    height: 450px;
+
+    background-color: aquamarine;
+    background-image: url(../multimedia/cuchara.jpg);
+    background-size: cover;
+    background-position: center;
+
+}
+
+.call {
+    color: white;
+    width: 60%;
+    border: 5px;
+    float: right;
+    margin: 20px;
+    padding: 20px;
+}
+
+h1 {
+    color: b;
+}
+
+h2 {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 20px;
+}
+
+img {
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+}
+
+.caja {
+    color: black;
+    height: 300px;
+    width: 300px;
+    border: 200px;
+    text-align: center;
+    margin: 20px;
+    padding: 20px;
+}
+
+.botton {
+    background-color: grey;
+    color: white;
+    display: inline-block;
+    text-decoration: none;
+
+}
+
+.sec {
+    height: 500px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+
+footer {
+    width: 100%;
+    text-align: center;
+    font-size: 20px;
+    background-color: black;
+    color: white;
+}
+
+footer p {
+    margin-bottom: 10px;
+
+}
+
+footer p1{ text-decoration-line: none;
+    text-decoration: none;
+
+}
+.redes a {
+    font-size: 30px;
+    color: white;
+    letter-spacing: 20px;
+}
+
+.subir {
+    height: 40px;
+    width: 40px;
+    background-color: black;
+    color: white;
+    position: fixed;
+    right: 40px;
+    bottom: 40px;
+    text-align: center;
+    line-height: 40px;
+    font-size: 25px;
+    border-radius: 50%;
+}
+
+h3 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    padding: 10px;
+}
+
+.procedimiento {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+    padding: 10px;
+    text-align: center;
+
+}
+
+.row {
+    --bs-gutter-x: 1.5rem;
+    --bs-gutter-y: 0;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: calc(-1 * var(--bs-gutter-y));
+    margin-right: calc(-.5 * var(--bs-gutter-x));
+    margin-left: calc(-.5 * var(--bs-gutter-x));
+}

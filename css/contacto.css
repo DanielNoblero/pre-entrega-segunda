@@ -1,7 +1,11 @@
 body {
-    height: 100%;
-    font-family: 'Noto Sans', sans-serif;
+    font-family: 'Overpass', sans-serif;
+    font-weight: normal;
+    font-size: 100%;
+    color: #1b262c;
     
+    margin: 0;
+    background-color: #0f4c75;
 }
 
 
@@ -12,7 +16,7 @@ body {
     border-radius: 10px;
     padding-top: 30px;
     padding-bottom: 20px;
-    background-color: rgb(4, 80, 55);
+    background-color: hsl(204, 57%, 46%);
     padding-left: 30px;
 }
 
@@ -24,7 +28,7 @@ input {
     border-radius: 5px;
     border-style: solid;
     border-width: 1px;
-    border-color: blue;
+    border-color: hsl(204, 57%, 46%);
     margin-top: 10px;
     padding-left: 10px;
     margin-bottom: 20px;
@@ -59,22 +63,22 @@ button {
     margin-bottom: 20px;
     margin-top: 10px;
     text-transform: uppercase;
-    background-color: yellow;
-    border-color: yellowgreen;
+    background-color: #0f4c75;
+    border-color: hsl(204, 57%, 46%);
     border-style: solid;
-    border-radius: 10px;
+    border-radius: 3px 3px 3px 3px;
     width: 420px;
     cursor: pointer;
 }
 
 
 button p {
-    color: black;
+    color: bbe1fa;
 }
 
 
 span {
-    color: #ab4493;
+    color: black;
 }
 
 
@@ -88,7 +92,7 @@ h1 {
     font-size: 39px;
     text-align: letf;
     padding-bottom: 20px;
-    color: black  ;
+    color: black;
 }
 
 
@@ -124,4 +128,28 @@ p {
 .formulario textarea:focus {
     outline: 0;
     border: 1px solid #97d848;
+}
+
+footer {
+    text-align: center;
+    font-size: 20px;
+    background-color: black;
+    color: white;
+}
+
+footer p {
+    color: white;
+    margin-bottom: 10px;
+}
+
+footer a {
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
+}
+
+.redes a {
+    font-size: 30px;
+    color: white;
+    letter-spacing: 20px;
 }

@@ -41,15 +41,7 @@ img {
   border-radius: 50%;
 }
 
-.caja {
-  color: black;
-  height: 300px;
-  width: 300px;
-  border: 200px;
-  text-align: center;
-  margin: 20px;
-  padding: 20px;
-}
+
 
 .botton {
   background-color: grey;

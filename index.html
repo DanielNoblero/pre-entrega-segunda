@@ -1,132 +1,130 @@
 <!DOCTYPE html>
 <html lang="es">
 
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="Recetas caceras para cocinar en casa">
-    <meta name="keywords" content="HTML, Panes, Carnes, Pollo, Postres, Pastas, Recetas, Ingredientes" >
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
-      crossorigin="anonymous" />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
-      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer" />
-    <title>Recetas</title>
-    <!-- Link hacia el archivo de estilos css -->
-    <link rel="stylesheet" href="css/style.css">
-  </head>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Recetas caceras para cocinar en casa">
+  <meta name="keywords" content="HTML, Panes, Carnes, Pollo, Postres, Pastas, Recetas, Ingredientes">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <title>Recetas</title>
+  <!-- Link hacia el archivo de estilos css -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
 
-  <body>
-    <!-- navbar inicio -->
-    <header data-bs-theme="dark">
-      <nav class="navbar sm-body-tertiary bg-dark navbar-dark ">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="../index.html">Recetras 👨‍🍳</a>
-          <button class="navbar-toggler" type="button"
-            data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
-            aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="offcanvas offcanvas-end" tabindex="-1"
-            id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
-            <div class="offcanvas-header">
-              <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Menu</h5>
-              <button type="button" class="btn-close"
-                data-bs-dismiss="offcanvas" aria-label="Close"></button>
-            </div>
-            <div class="offcanvas-body">
-              <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
-                <li><a class="dropdown-item" href="html/pasta.html">Pasta</a></li>
-                <li><a class="dropdown-item" href="html/pan.html">Panaderia</a></li>
-                <li><a class="dropdown-item" href="html/carnes.html">Carnes</a></li>
-                <li><a class="dropdown-item" href="html/postres.html">Postres</a></li>
-                <p></p>
-                <p></p>
-                <li><a class="dropdown-item" href="html/login.html">Registrarse</a></li>
-                <li><a class="dropdown-item" href="html/singup.html">Entrar</a></li>
-                <li class="nav-item dropdown">
-                  <form class="d-flex mt-3" role="search">
-                    <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
-                    <button class="btn btn-outline-success" type="submit">Buscar</button>
-                  </form>
-            </div>
+<body>
+  <!-- navbar inicio -->
+  <header data-bs-theme="dark">
+    <nav class="navbar sm-body-tertiary bg-dark navbar-dark ">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.html">Recetras 👨‍🍳</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
+          aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Menu</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+              <li><a class="dropdown-item" href="html/pasta.html">Pasta</a></li>
+              <li><a class="dropdown-item" href="html/pan.html">Panaderia</a></li>
+              <li><a class="dropdown-item" href="html/carnes.html">Carnes</a></li>
+              <li><a class="dropdown-item" href="html/postres.html">Postres</a></li>
+              <br/>
+              <li><a class="dropdown-item" href="html/login.html">Registrarse</a></li>
+              <li><a class="dropdown-item" href="html/singup.html">Entrar</a></li>
+              <li class="nav-item dropdown">
+                <form class="d-flex mt-3" role="search">
+                  <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
+                  <button class="btn btn-outline-success" type="submit">Buscar</button>
+                </form>
           </div>
         </div>
-      </nav>
-      <!-- navbar fin -->
-    </header>
-    <main>
-      <div class="call ">
-        <h1>Comrparte tus recetas</h1>
-        <p>
-          En esta pagina no solo podes ver las recetas sino que tambien podes
-          compartir tus recetas favoritas para que los demas usuarios puedan
-          replicarlas
-        </p>
       </div>
-      
-    </main>
-
-    <h2 id="sec">Ultimas recetas</h2>
-    <div class="container mt-3">
-      <div class="row">
-        <div class="col-sm-4">
-          <center><img src="multimedia/pasta.jpg" alt="Pasta cacera"/></center>
-          <p>
-            La pasta fresca al huevo tiene más color y mayor valor nutricional.
-            La peculiaridad de esta masa es que, precisamente por llevar huevo,
-            se debe consumir fresca. Una vez lista se puede mantener en la
-            nevera durante un par de días, pero lo ideal es cocinarla
-            inmediatamente.
-          </p>
-          <a class="botton" href="html/pasta.html">Mas detalles:</a>
-        </div>
-        <div class="col-sm-4">
-          <center><img src="multimedia/pan.jpg" alt="pan de campo"/></center>
-          <p>
-            Pan de campo es un pan plano con un nombre que se piensa como pan de
-            campo, pan de campo o pan de vaquero. El pan era un alimento básico
-            regional de vaqueros y vaqueros del sur de Texas. Celebrado en
-            varios festivales del sur de Texas, fue nombrado símbolo oficial de
-            Texas en 2005.
-          </p>
-          <a class="botton" href="html/pan.html">Mas detalles:</a>
-        </div>
-        <div class="col-sm-4">
-          <center><img src="multimedia/carne.jpg" alt="Carne asada" /></center>
-          <p>
-            La carne asada es carne de res asada y cortada en rodajas,
-            generalmente filete de falda, filete de falda o filete de falda,
-            aunque también se puede utilizar filete de lomo. Por lo general, se
-            marina y luego se asa o se chamusca para darle un sabor carbonizado.
-          </p>
-          <a class="botton" href="html/carnes.html">Mas detalles:</a>
-        </div>
-      </div>
+    </nav>
+    <!-- navbar fin -->
+  </header>
+  <main>
+    <div class="call ">
+      <h1>Comrparte tus recetas</h1>
+      <p>
+        En esta pagina no solo podes ver las recetas sino que tambien
+        podes
+        compartir tus recetas favoritas para que los demas usuarios puedan
+        replicarlas
+      </p>
     </div>
 
-    <footer>
-      <p>Todos los derechos son recervados por copyright</p>
-      <div class="redes ">
-        <a href><i class="fa-brands fa-facebook"></i></a>
-        <a href><i class="fa-brands fa-x-twitter"></i></a>
-        <a href><i class="fa-brands fa-instagram"></i></a>
-        <a href="https://github.com/DanielNoblero/pre-entrega-segunda.git"><i class="fa-brands fa-github"></i></a>
+  </main>
+
+  <h2 id="sec">Ultimas recetas</h2>
+  <div class="container mt-3">
+    <div class="row">
+      <div class="col-sm-4">
+        <center><img src="multimedia/pasta.jpg" alt="Pasta cacera" /></center>
+        <p>
+          La pasta fresca al huevo tiene más color y mayor valor
+          nutricional.
+          La peculiaridad de esta masa es que, precisamente por llevar
+          huevo,
+          se debe consumir fresca. Una vez lista se puede mantener en la
+          nevera durante un par de días, pero lo ideal es cocinarla
+          inmediatamente.
+        </p>
+        <a class="botton" href="html/pasta.html">Mas detalles:</a>
       </div>
-      <a href="html/contacto.html">Contacto</a>
-    </footer>
-    <a href="#" class="subir">
-      <i class="fa-solid fa-arrow-up"></i>
-    </a>
-    <script
-        src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
-        crossorigin="anonymous"></script>
-  </body>
+      <div class="col-sm-4">
+        <center><img src="multimedia/pan.jpg" alt="pan de campo" /></center>
+        <p>
+          Pan de campo es un pan plano con un nombre que se piensa como
+          pan de
+          campo, pan de campo o pan de vaquero. El pan era un alimento
+          básico
+          regional de vaqueros y vaqueros del sur de Texas. Celebrado en
+          varios festivales del sur de Texas, fue nombrado símbolo oficial
+          de
+          Texas en 2005.
+        </p>
+        <a class="botton" href="html/pan.html">Mas detalles:</a>
+      </div>
+      <div class="col-sm-4">
+        <center><img src="multimedia/carne.jpg" alt="Carne asada" /></center>
+        <p>
+          La carne asada es carne de res asada y cortada en rodajas,
+          generalmente filete de falda, filete de falda o filete de falda,
+          aunque también se puede utilizar filete de lomo. Por lo general,
+          se
+          marina y luego se asa o se chamusca para darle un sabor
+          carbonizado.
+        </p>
+        <a class="botton" href="html/carnes.html">Mas detalles:</a>
+      </div>
+    </div>
+  </div>
+
+  <footer>
+    <p>Todos los derechos son recervados por copyright</p>
+    <div class="redes ">
+      <a href><i class="fa-brands fa-facebook"></i></a>
+      <a href><i class="fa-brands fa-x-twitter"></i></a>
+      <a href><i class="fa-brands fa-instagram"></i></a>
+      <a href="https://github.com/DanielNoblero/pre-entrega-segunda.git"><i class="fa-brands fa-github"></i></a>
+    </div>
+    <a href="html/contacto.html">Contacto</a>
+  </footer>
+  <a href="#" class="subir">
+    <i class="fa-solid fa-arrow-up"></i>
+  </a>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"></script>
+</body>
+
 </html>

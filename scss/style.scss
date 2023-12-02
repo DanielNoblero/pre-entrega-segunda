@@ -1,3 +1,6 @@
+@import url(contacto.scss);
+@import url(login.scss);
+
 * {
     margin: 0;
     padding: 0;
@@ -17,12 +20,13 @@ main {
 }
 
 .call {
-    color: white;
+    color: black;
     width: 60%;
     border: 5px;
     float: right;
     margin: 20px;
     padding: 20px;
+    text-shadow: 5px 5px #558abb;
 }
 
 h1 {
@@ -50,6 +54,10 @@ img {
     text-decoration: none;
 
 }
+.textointroduccion {
+    margin-left: 20%;
+    margin-right: 20%;
+    }
 
 .sec {
     height: 500px;

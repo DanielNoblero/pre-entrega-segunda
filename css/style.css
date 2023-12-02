@@ -99,7 +99,13 @@ h3 {
   padding: 10px;
 }
 
+.textointroduccion {
+margin-left: 20%;
+margin-right: 20%;
+}
 .procedimiento {
+  margin-left: 10% ;
+  margin-right: 10%;
   font-family: Arial, Helvetica, sans-serif;
   text-align: justify;
   padding: 10px;
